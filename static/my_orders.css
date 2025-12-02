@@ -1,0 +1,63 @@
+/* My Orders Page Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.orders-container {
+    background: white;
+    width: 95%;
+    max-width: 900px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.orders-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+table tr:first-child {
+    background: #007bff;
+    color: white;
+}
+
+table tr:not(:first-child) {
+    background: #fafafa;
+    border-bottom: 1px solid #eee;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.view-details-link {
+    color: #28a745;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.view-details-link:hover {
+    text-decoration: underline;
+}
+
+.no-orders {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+}

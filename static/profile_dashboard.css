@@ -1,0 +1,93 @@
+/* Profile Dashboard Page Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6f7;
+    margin: 0;
+    padding: 20px;
+}
+
+.dashboard-container {
+    max-width: 700px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.dashboard-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.dashboard-container p {
+    font-size: 15px;
+    color: #555;
+}
+
+.dashboard-container p strong {
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 30px;
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+table tr {
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+
+table tr:first-child {
+    background: #007bff;
+    color: #fff;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.action-buttons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-edit {
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.btn-password {
+    background: #dc3545;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.no-purchases {
+    color: #777;
+    margin-top: 15px;
+}

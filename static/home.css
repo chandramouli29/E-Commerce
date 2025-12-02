@@ -1,0 +1,56 @@
+/* Home Page Styles */
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(to bottom, #f8fafc, #ffffff);
+    background-attachment: relative;
+    color: #222;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 32px;
+    color: #222;
+}
+
+nav {
+    position: relative;
+    top: 0;
+    width: 95%;
+    padding: 18px 20px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav a {
+    color: #222;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #28a745;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}

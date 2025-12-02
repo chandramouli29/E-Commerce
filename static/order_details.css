@@ -1,0 +1,78 @@
+/* Order Details Page Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f0f2f5, #e8eaed);
+    margin: 0;
+    padding: 20px;
+}
+
+.order-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #444;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+p strong {
+    font-weight: bold;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+table th {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    background: #0056b3;
+}

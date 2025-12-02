@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ product.name }} - Product Details</title>
+    <link rel="stylesheet" href="{% static 'products_details.css' %}">
+</head>
+<body>
+
+<div class="product-container">
+    
+    {% if product.image %}
+        <img src="{{ product.image.url }}" alt="{{ product.name }}">
+    {% else %}
+        <img src="/static/default-product.png" alt="Product Image">
+    {% endif %}
+
+    <div class="details">
+        <h2>{{ product.name }}</h2>
+
+        <p class="price">₹ {{ product.price }}</p>
+
+        <p class="description">{{ product.description }}</p>
+
+        <a href="{% url 'add_to_cart' product.id %}" class="btn">Add to Cart</a>
+    </div>
+
+</div>
+
+</body>
+</html>
